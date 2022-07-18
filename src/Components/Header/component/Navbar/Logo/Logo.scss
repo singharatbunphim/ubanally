@@ -1,0 +1,56 @@
+.logo-group{
+
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    transition: all 0.25s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: 0.5rem;
+
+    @media screen and (min-width: 960px) {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        transition: all 0.3s ease-in-out;
+        bottom: 0.8rem;
+        margin-left: 1rem;
+    }
+
+
+    .svg_group{
+        display: flex;
+        align-items: center;
+        width: 57px;
+        position: relative;
+
+
+        @media screen and (min-width: 960px) {
+            width: 72px;
+        }
+    
+    }
+
+    .group_child {
+        span{
+            font-size: 0.8rem;
+            color: #227a6c;
+            letter-spacing: 1.25px;
+
+            @media screen and (min-width: 960px) {
+                font-size: 1.2rem;
+                margin-left: 0.7rem;
+            }
+        }
+    }
+
+
+}
+
+.logo-group.active svg path {
+    fill: #37b19e;
+    transition: all 0.3s ease-in-out;
+}

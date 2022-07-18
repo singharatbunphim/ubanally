@@ -1,0 +1,27 @@
+.menulink {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+    
+    ul{
+        display: none;
+        list-style: none;
+        
+        li.active a {
+            color: #2cbcae;
+        }
+        
+        li {
+            margin-right: 2.7rem;
+
+            a {
+                letter-spacing: 0.12rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media screen and (min-width: 968px) {
+            display: flex;
+        }
+    }
+}
