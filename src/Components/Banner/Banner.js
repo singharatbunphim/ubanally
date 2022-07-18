@@ -6,6 +6,7 @@ function Banner() {
     <div className='container-fuid'>
         <div className="banner">
             <Overlay />
+
         </div>
     </div>
   )
