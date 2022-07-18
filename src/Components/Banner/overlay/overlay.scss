@@ -19,3 +19,22 @@
     bottom: 0;
     position: absolute;
 }
+
+.overlay::before {
+    content: "";
+    width: 100%;
+    background: -webkit-linear-gradient(top,hsla(0,0%,100%,0),#fff);
+    background: linear-gradient(180deg,hsla(0,0%,100%,0),#fff);
+    height: 5vh;
+    max-height: 40px;
+    padding: 1em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+
+    @media screen and (min-width: 960px) {
+        display: none;
+    }
+}
