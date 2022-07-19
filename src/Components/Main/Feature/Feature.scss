@@ -1,0 +1,263 @@
+.feature-con {
+    position: relative;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+
+    .content-left {
+        position: relative;
+        height: 30rem;
+        overflow: hidden;
+
+        .cl-warpper {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            bottom: 0;
+            z-index: 10;
+
+
+                span {
+                    font-size: 48px;
+                    font-weight: 900;
+                    color: white;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    line-height: 29px;
+                    text-shadow: 0 7px 0 rgb(0 0 0 / 25%);
+                    transition: all 0.7s ease-in-out;
+                }
+
+                .button_learnmore {
+                    margin-top: 3rem;
+                    display: none;
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                    transform: translateY(-50%);
+                    bottom: 4rem;
+                }
+        }
+        .bg {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background: transparent url(https://open-data.urbanally.org/assets/images/home/WelcomeHomeScreenTH-9-image.jpg) 100% 0 no-repeat padding-box;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 0;
+        }
+    }
+
+    .content-right {
+        padding: 3rem;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            font-weight: 900;
+
+            li {
+                margin-top: 3rem;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.feature-con:hover {
+
+    .content-left{
+        .cl-warpper {
+            position: absolute;
+            transition: all 0.7s ease-in-out;
+            background: rgb(0 0 0 / 70%);
+            span{
+                margin-bottom: 3rem;
+                transition: all 0.7s ease-in-out;
+
+            }
+            
+            .button_learnmore {
+                position: absolute;
+                display: flex;
+                transition: all 1s ease-in;
+                opacity: 1;
+            }
+        }
+        .bg {
+            filter: blur(3px);
+            transition: all 0.7s ease-in-out;
+
+        }
+    }
+
+    .content-right{
+        ul {
+            cursor: pointer;
+            li {
+              color: #ccc;
+              transition: all 0.3s ease-in-out;  
+            }
+
+            li:hover {
+                letter-spacing: 0.12rem;
+                transition: all 0.3s ease-in-out;  
+                color: #37b19e;
+            }
+        }
+    }
+
+}
+
+.feature-con2 {
+    position: relative;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+
+    .content-left {
+        position: relative;
+        height: 30rem;
+        overflow: hidden;
+        order: 1;
+        .cl-warpper {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            bottom: 0;
+            z-index: 10;
+
+
+                span {
+                    font-size: 48px;
+                    font-weight: 900;
+                    color: black;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    line-height: 29px;
+                    text-shadow: 0 7px 0 rgb(0 0 0 / 25%);
+                    transition: all 0.7s ease-in-out;
+                }
+
+                .button_learnmore {
+                    margin-top: 3rem;
+                    display: none;
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                    transform: translateY(-50%);
+                    bottom: 4rem;
+                }
+        }
+        .bg {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background: transparent url(https://open-data.urbanally.org/assets/images/home/WelcomeHomeScreenTH-9-image3.png) 100% 0 no-repeat padding-box;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 0;
+        }
+    }
+
+    .content-right {
+        padding: 3rem;
+        .c_title {
+            text-align: right;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            font-weight: 900;
+
+            li {
+                margin-top: 3rem;
+                font-size: 1.3rem;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.feature-con2:hover {
+
+    .content-left{
+        .cl-warpper {
+            position: absolute;
+            transition: all 0.7s ease-in-out;
+            background: rgb(0 0 0 / 70%);
+            span{
+                color: white;
+                margin-bottom: 3rem;
+                transition: all 0.7s ease-in-out;
+
+            }
+            
+            .button_learnmore {
+                position: absolute;
+                display: flex;
+                transition: all 1s ease-in;
+                opacity: 1;
+            }
+        }
+        .bg {
+            filter: blur(3px);
+            transition: all 0.7s ease-in-out;
+
+        }
+    }
+
+    .content-right{
+        ul {
+            cursor: pointer;
+            li {
+              color: #ccc;
+              transition: all 0.3s ease-in-out;  
+            }
+
+            li:hover {
+                letter-spacing: 0.12rem;
+                transition: all 0.3s ease-in-out;  
+                color: #37b19e;
+            }
+        }
+    }
+
+}
+
+
+
+.button_learnmore {
+    background: none;
+    border: 0px;
+    color: #fff;
+    background-color: #37b19e;
+    border: 3px solid #37b19e;
+    padding: 0.6rem 3rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button_learnmore:hover {
+    border-radius: 4rem;
+}
