@@ -7,8 +7,10 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: 628px) {
         display: flex;
+        bottom: 4rem;
+        margin-left: 2rem;
     }
     .content_items{
         transition: all 0.3s ease-in-out;
@@ -29,8 +31,16 @@
         display: flex;
         justify-content: space-around;
 
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 628px) {
             display: none;
+        }
+
+        @media screen and (min-width: 1100px) {
+            margin-top: 0;
+            position: relative;
+            display: flex;
+            justify-content: unset;
+            
         }
     }
 }
