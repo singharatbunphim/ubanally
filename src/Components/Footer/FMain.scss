@@ -1,0 +1,106 @@
+.footer {
+    width: 100%;
+    background: #37b19e;
+    height:  auto;
+
+    .footer-warpper {
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+
+
+        .footer-header {
+            padding: 0 2.5em;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 12px;
+            color: white;
+            font-weight: 900;
+        }
+    }
+
+    .footer-lasted {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        grid-gap: 1rem;
+        .list-items {
+            width: auto;
+            color: white;
+
+            span {
+                font-size: 1rem;
+                text-align: left;
+                padding: 0.5rem 1.2rem;
+                cursor: pointer;
+                font-weight: 900;
+                border-radius: 5px 20px 20px 5px;
+                transition: all 0.3s ease-in-out;
+                margin: 10px;
+            }
+
+            
+
+            span:hover {
+                background-color: #fff;
+                color: black;
+                a {
+                    margin-left: 0.3rem;
+                    transition: all 0.3s ease-in-out;
+                }
+
+            }
+            ul {
+                list-style: none;
+                text-align: left;
+                margin-left: 1.7rem;
+
+                li {
+                    opacity: 0.5;
+                    padding: 10px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                }
+                li:hover {
+                    letter-spacing: 1.23px;
+                }
+            }
+        }
+
+        .switchmenu {
+            display: flex;
+            flex-direction: column; 
+            .list-items {
+                width: 8rem;
+                font-size: 1rem;
+                text-align: left;
+                padding: 0.8rem;
+                cursor: pointer;
+                font-weight: 900;
+                border-radius: 5px 20px 20px 5px;
+                transition: all 0.3s ease-in-out;
+            }
+
+            
+
+            .list-items:hover {
+                background-color: #fff;
+                color: black;
+                a {
+                    margin-left: 0.3rem;
+                    transition: all 0.3s ease-in-out;
+                }
+
+            }
+        }
+    }
+}
