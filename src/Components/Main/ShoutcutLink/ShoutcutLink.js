@@ -7,6 +7,7 @@ function ShoutcutLink() {
             <div className='section-title'>
                 <h1>What’s inside in our collection?</h1>
             </div>
+            
             <div className='shoutcut_warpper'>
                 <div className='shoutcutLink'>
                     <div className='image-logo'>
@@ -32,6 +33,10 @@ function ShoutcutLink() {
                         <p>Explore bigger context of Urban data at global scale</p>
                     </div>
                 </div>
+            </div>
+
+            <div className='button-con'>
+                <button type="button" className='button_learnmore'>Learn More</button>
             </div>
         </div>
     </div>

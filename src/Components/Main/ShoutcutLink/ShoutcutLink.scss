@@ -48,4 +48,19 @@
             }
         }
     }
+
+    .button-con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .button_learnmore {
+            background: none;
+            border: 0px;
+            color: #37b19e;
+            border: 3px solid #37b19e;
+            padding: 1rem 3rem;
+            border-radius: 1.5rem;
+        }
+    }
 }
